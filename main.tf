@@ -16,7 +16,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
 
-  name     = "JenkinsIntegration"
+  name     = "JenkinsIntegration2"
   location = "North Europe"
   tags = {
         Environment = "Terraform Getting Started"
